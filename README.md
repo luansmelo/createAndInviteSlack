@@ -1,1 +1,1 @@
-# Create channels and invite people to slack channels 
+# Create and invite people to slack channels
