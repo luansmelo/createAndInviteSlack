@@ -21,7 +21,7 @@ function loadCsvData(filename) {
   const token = process.env.SLACK_TOKEN
   const web = new WebClient(token);
 
-  const className = process.argv[2].toLowerCase()
+  const className = process.argv[2].toLowerCase().trim()
   /** @type {{ email: string; }[]} */
   const studentsEmail = await loadCsvData('data.csv');
 
